@@ -1,8 +1,6 @@
 package players;
 
-import behaviours.ISwap;
-
-public abstract class Character implements ISwap {
+public abstract class Character {
     private final String name;
     private int healthPoints;
     private int gold;
@@ -17,12 +15,20 @@ public abstract class Character implements ISwap {
         return name;
     }
 
+    public int getHealthPoints() {
+        return healthPoints;
+    }
+
     public void increaseHP(int i) {
         healthPoints += i;
     }
 
     public void decreaseHP(int i) {
         healthPoints -= i;
+    }
+
+    public int getGold() {
+        return gold;
     }
 
     public void increaseGold(int i) {
