@@ -26,3 +26,4 @@ public class Barbarian extends Fighter {
         setBerserk(false);
     }
 }
+
