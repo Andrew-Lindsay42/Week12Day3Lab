@@ -10,7 +10,7 @@ public class Miner extends Fighter{
     }
 
     public void mine(){
-        int num = ThreadLocalRandom.current().nextInt(0,  6);
+        int num = ThreadLocalRandom.current().nextInt(1,  6);
         increaseGold(num);
     }
 }

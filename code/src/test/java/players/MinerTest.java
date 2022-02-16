@@ -4,7 +4,6 @@ import org.junit.Before;
 import org.junit.Test;
 import powers.Weapon;
 
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class MinerTest {
