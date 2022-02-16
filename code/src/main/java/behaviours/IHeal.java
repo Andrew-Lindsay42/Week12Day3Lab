@@ -1,7 +1,7 @@
 package behaviours;
 
-import powers.Heal;
+import players.Character;
 
 public interface IHeal {
-    String heal(Heal heal);
+    int heal(Character character);
 }
