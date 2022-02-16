@@ -1,11 +1,11 @@
 package players;
 
-public abstract class Character {
+public abstract class Player {
     private final String name;
     private int healthPoints;
     private int gold;
 
-    public Character(String name, int healthPoints) {
+    public Player(String name, int healthPoints) {
         this.name = name;
         this.healthPoints = healthPoints;
         this.gold = 0;

@@ -4,7 +4,7 @@ import behaviours.ICast;
 import powers.Familiar;
 import powers.Spell;
 
-public abstract class Mage extends Character implements ICast {
+public abstract class Mage extends Player implements ICast {
     int manaPool;
     Spell spell;
     Familiar familiar;

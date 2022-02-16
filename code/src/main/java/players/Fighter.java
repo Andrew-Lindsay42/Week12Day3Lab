@@ -3,7 +3,7 @@ package players;
 import behaviours.IWield;
 import powers.Weapon;
 
-public abstract class Fighter extends Character implements IWield {
+public abstract class Fighter extends Player implements IWield {
     Weapon weapon;
 
     public Fighter(String name, int healthPoints, Weapon weapon) {

@@ -1,7 +1,7 @@
 package behaviours;
 
-import players.Character;
+import players.Player;
 
 public interface IHeal {
-    int heal(Character character);
+    int heal(Player player);
 }

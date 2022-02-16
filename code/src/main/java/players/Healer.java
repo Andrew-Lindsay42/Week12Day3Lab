@@ -3,7 +3,7 @@ package players;
 import behaviours.IHeal;
 import powers.Heal;
 
-public abstract class Healer extends Character implements IHeal {
+public abstract class Healer extends Player implements IHeal {
 
     Heal heal;
 
@@ -20,9 +20,9 @@ public abstract class Healer extends Character implements IHeal {
         this.heal = heal;
     }
 
-    public int heal(Character character) {
-        character.increaseHP(heal.getHealthRestore());
-        return character.getHealthPoints();
+    public int heal(Player player) {
+        player.increaseHP(heal.getHealthRestore());
+        return player.getHealthPoints();
     }
 
 }
