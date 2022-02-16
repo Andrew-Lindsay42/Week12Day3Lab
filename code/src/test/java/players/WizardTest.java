@@ -66,4 +66,10 @@ public class WizardTest {
         assertEquals(20, wizard.cast());
         assertEquals(95, wizard.getManaPool());
     }
+
+    @Test
+    public void canPonderOrb() {
+        wizard.ponderOrb();
+        assertEquals(110, wizard.getManaPool());
+    }
 }
